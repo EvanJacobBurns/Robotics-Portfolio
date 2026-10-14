@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title description">
+    <title id="title">Image placeholder</title>
+    <desc id="description">A labeled placeholder for the Programming with Sensors Activity photo.</desc>
+    <rect width="800" height="450" fill="#e8edf2"/>
+    <text x="400" y="225" fill="#34495e" font-family="sans-serif" font-size="32" text-anchor="middle" dominant-baseline="middle">Activity photo placeholder</text>
+</svg>
