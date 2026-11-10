@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 13: Fruit Scanner</title>
+    <link rel="stylesheet" href="./project.css">
+</head>
+<body>
+
+    <!-- Header and Navigation Section -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="./index.html" class="active">Home</a>
+        </nav>
+    </header>
+
+    <!-- Project Information -->
+    <div class="proj-container">
+
+        <h1 class='proj-header'>Project Portfolio</h1>
+
+        <div class="proj-img-container">
+            <img src="./images/apple_vs_banana.png" alt="Apple and banana scanner project">
+        </div>
+
+        <h2 class='proj-header'>Project 13: Fruit Scanner</h2>
+
+        <div class="proj-desc">
+            <p>For this project, I built a device that uses a color sensor and machine learning to tell apples and bananas apart. I trained it by scanning each fruit and storing the sensor’s red, green and blue (RGB) values. To classify a new fruit, the device treats its color reading as a point in 3D RGB space and finds the closest training point. I first used K-Nearest Neighbor with k = 3, but that left a lot of readings in the middle that it couldn’t confidently assign to either fruit. I switched to a single nearest neighbor, which always gives a clear answer and worked better with my training data.</p>
+            <p><a href="https://youtu.be/zWdXRvWftME">Watch the Fruit Scanner project video.</a></p>
+        </div>
+
+    </div>
+    <!-- End Project Information -->
+
+</body>
+</html>
