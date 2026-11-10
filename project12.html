@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project 12: Nearest Neighbor High or Low</title>
+    <link rel="stylesheet" href="./project.css">
+</head>
+<body>
+
+    <!-- Header and Navigation Section -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="./index.html" class="active">Home</a>
+        </nav>
+    </header>
+
+    <!-- Project Information -->
+    <div class="proj-container">
+
+        <h1 class='proj-header'>Project Portfolio</h1>
+
+        <div class="proj-img-container">
+            <img src="./images/NNheight.png" alt="Nearest Neighbor high or low project">
+        </div>
+
+        <h2 class='proj-header'>Project 12: Nearest Neighbor High or Low</h2>
+
+        <div class="proj-desc">
+            <p>For this project, I built a supervised classification device that uses machine learning to tell “high” and “low” heights apart. In training mode, I held the distance sensor at different heights and recorded each distance reading with a matching motor position, so the device learned which readings mean “short” and which mean “tall.” In prediction mode, the device takes a new distance reading and uses a K-Nearest Neighbor classifier to find the three closest stored readings. It then moves the motor’s pointer to the answer most of them agree on. I chose k = 3 because it’s small enough to work with only a few training points, and a vote among three neighbors still means one bad data point can’t throw off the prediction.</p>
+            <p><a href="https://youtu.be/bpQPWWk8Vfw">Watch the Nearest Neighbor High or Low project video.</a></p>
+        </div>
+
+    </div>
+    <!-- End Project Information -->
+
+</body>
+</html>
